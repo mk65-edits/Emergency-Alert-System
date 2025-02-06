@@ -7,9 +7,11 @@
     "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
-  "scripts": {
-    "start": "node server.js"
-  },
+"scripts": {
+  "start": "node server.js",
+  "install": "npm install --omit=dev"
+},
+
   "keywords": [],
   "author": "",
   "license": "ISC",
